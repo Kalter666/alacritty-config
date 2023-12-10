@@ -46,19 +46,18 @@ font:
   normal:
     family: FiraCode Nerd Font Mono Ret
     # Style can be specified to pick a specific face.
-    style: Regular
+    # style: Regular
 
   # The bold font face
   bold:
     family: FiraCode Nerd Font Mono Ret
     # Style can be specified to pick a specific face.
-    style: Bold
+    # style: Bold
 
   # The italic font face
   italic:
     family: FiraCode Nerd Font Mono Ret
     # Style can be specified to pick a specific face.
-    # style: Regular
 
   # Point size of the font
   size: 10
@@ -209,7 +208,7 @@ theme: Catppuccin
 # Entries in shell.args are passed unmodified as arguments to the shell.
 #
 shell:
-  program: /usr/bin/tmux
+  program: /opt/homebrew/bin/tmux
   args:
     - new-session
     - -A
